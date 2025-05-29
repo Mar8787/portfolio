@@ -1,0 +1,15 @@
+com\zaltor\juegoRol\Guerrero.class
+com\zaltor\juegoRol\LoboSalvaje.class
+com\zaltor\excepciones\EnergiaInsuficienteException.class
+com\zaltor\juegoRol\Personaje.class
+com\zaltor\juegoRol\Ninja.class
+com\zaltor\juegoRol\Juego.class
+com\zaltor\excepciones\ZonaBloqueadaException.class
+com\zaltor\juegoRol\GuerreroOscuro.class
+com\zaltor\juegoRol\Chaman.class
+com\zaltor\juegoRol\Morghan.class
+com\zaltor\juegoRol\NoMuerto.class
+com\zaltor\excepciones\JuegoException.class
+com\zaltor\juegoRol\Enemigo.class
+com\zaltor\logs\Logger.class
+com\zaltor\juegoRol\Mundo.class

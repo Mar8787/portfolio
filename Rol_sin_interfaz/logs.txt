@@ -1,0 +1,177 @@
+[08-04-2025 20:03:53] Comienza el juego.
+[08-04-2025 20:04:02] La jugadora elige al Guerrero
+[08-04-2025 20:04:16] La jugadora nombra a su personaje como: Cristalya.
+[08-04-2025 20:04:19] ERROR --> Intento de entrar en el Castillo Oscuro sin la llave.
+[08-04-2025 20:04:19] Combate iniciado: Cristalya vs Guerrero Oscuro.
+[08-04-2025 20:04:19] Turno de--> Cristalya.
+[08-04-2025 20:04:31] Cristalya ataca a Guerrero Oscuro
+[08-04-2025 20:04:31] Turno de--> Guerrero Oscuro.
+[08-04-2025 20:04:31] Guerrero Oscuro usa Habilidad Especial.
+[08-04-2025 20:04:31] Turno de--> Cristalya.
+[08-04-2025 20:04:33] Cristalya activa la defensa.
+[08-04-2025 20:04:33] Turno de--> Guerrero Oscuro.
+[08-04-2025 20:04:33] Guerrero Oscuro activa defensa.
+[08-04-2025 20:04:33] Turno de--> Cristalya.
+[08-04-2025 20:04:35] Cristalya usa Habilidad Especial.
+[08-04-2025 20:04:35] Turno de--> Guerrero Oscuro.
+[08-04-2025 20:04:35] Guerrero Oscuro activa defensa.
+[08-04-2025 20:04:35] Turno de--> Cristalya.
+[08-04-2025 20:04:37] Cristalya activa la defensa.
+[08-04-2025 20:04:37] Turno de--> Guerrero Oscuro.
+[08-04-2025 20:04:37] Guerrero Oscuro ataca a Cristalya.
+[08-04-2025 20:04:37] Turno de--> Cristalya.
+[08-04-2025 20:04:37] Cristalya activa la defensa.
+[08-04-2025 20:04:37] Turno de--> Guerrero Oscuro.
+[08-04-2025 20:04:37] Guerrero Oscuro ataca a Cristalya.
+[08-04-2025 20:04:37] Turno de--> Cristalya.
+[08-04-2025 20:04:38] Cristalya activa la defensa.
+[08-04-2025 20:04:38] Turno de--> Guerrero Oscuro.
+[08-04-2025 20:04:38] Guerrero Oscuro ataca a Cristalya.
+[08-04-2025 20:04:38] Turno de--> Cristalya.
+[08-04-2025 20:04:38] Cristalya activa la defensa.
+[08-04-2025 20:04:38] Turno de--> Guerrero Oscuro.
+[08-04-2025 20:04:38] Guerrero Oscuro activa defensa.
+[08-04-2025 20:04:38] Turno de--> Cristalya.
+[08-04-2025 20:04:39] Cristalya activa la defensa.
+[08-04-2025 20:04:39] Turno de--> Guerrero Oscuro.
+[08-04-2025 20:04:39] Guerrero Oscuro usa Habilidad Especial.
+[08-04-2025 20:04:39] Turno de--> Cristalya.
+[08-04-2025 20:04:39] Cristalya activa la defensa.
+[08-04-2025 20:04:39] Turno de--> Guerrero Oscuro.
+[08-04-2025 20:04:39] Guerrero Oscuro activa defensa.
+[08-04-2025 20:04:39] Turno de--> Cristalya.
+[08-04-2025 20:04:40] Cristalya activa la defensa.
+[08-04-2025 20:04:40] Turno de--> Guerrero Oscuro.
+[08-04-2025 20:04:40] Guerrero Oscuro ataca a Cristalya.
+[08-04-2025 20:04:40] Turno de--> Cristalya.
+[08-04-2025 20:04:40] Cristalya activa la defensa.
+[08-04-2025 20:04:40] Turno de--> Guerrero Oscuro.
+[08-04-2025 20:04:40] Guerrero Oscuro usa Habilidad Especial.
+[08-04-2025 20:04:40] Turno de--> Cristalya.
+[08-04-2025 20:04:41] Cristalya activa la defensa.
+[08-04-2025 20:04:41] Turno de--> Guerrero Oscuro.
+[08-04-2025 20:04:41] Guerrero Oscuro ataca a Cristalya.
+[08-04-2025 20:04:41] Cristalya Ha muerto.
+[08-04-2025 20:08:10] Comienza el juego.
+[08-04-2025 20:09:03] La jugadora elige al Ninja
+[08-04-2025 20:09:33] La jugadora nombra a su personaje como: Mameninja.
+[08-04-2025 20:09:44] ERROR --> Intento de entrar en el Castillo Oscuro sin la llave.
+[08-04-2025 20:09:44] Combate iniciado: Mameninja vs Guerrero Oscuro.
+[08-04-2025 20:09:44] Turno de--> Mameninja.
+[08-04-2025 20:10:24] Mameninja ataca a Guerrero Oscuro
+[08-04-2025 20:10:24] Turno de--> Guerrero Oscuro.
+[08-04-2025 20:10:24] Guerrero Oscuro usa Habilidad Especial.
+[08-04-2025 20:10:24] Turno de--> Mameninja.
+[08-04-2025 20:10:43] Mameninja usa Habilidad Especial.
+[08-04-2025 20:10:43] Turno de--> Guerrero Oscuro.
+[08-04-2025 20:10:43] Guerrero Oscuro ataca a Mameninja.
+[08-04-2025 20:10:43] Turno de--> Mameninja.
+[08-04-2025 20:43:36] Mameninja ataca a Guerrero Oscuro
+[08-04-2025 20:43:36] Turno de--> Guerrero Oscuro.
+[08-04-2025 20:43:36] Guerrero Oscuro usa Habilidad Especial.
+[08-04-2025 20:43:36] Turno de--> Mameninja.
+[08-04-2025 20:43:36] Mameninja activa la defensa.
+[08-04-2025 20:43:36] Turno de--> Guerrero Oscuro.
+[08-04-2025 20:43:36] Guerrero Oscuro activa defensa.
+[08-04-2025 20:43:36] Turno de--> Mameninja.
+[08-04-2025 20:43:38] Mameninja activa la defensa.
+[08-04-2025 20:43:38] Turno de--> Guerrero Oscuro.
+[08-04-2025 20:43:38] Guerrero Oscuro ataca a Mameninja.
+[08-04-2025 20:43:38] Turno de--> Mameninja.
+[08-04-2025 20:43:38] Mameninja activa la defensa.
+[08-04-2025 20:43:38] Turno de--> Guerrero Oscuro.
+[08-04-2025 20:43:38] Guerrero Oscuro ataca a Mameninja.
+[08-04-2025 20:43:38] Mameninja Ha muerto.
+[11-04-2025 14:00:59] Comienza el juego.
+[25-04-2025 15:09:53] Comienza el juego.
+[25-04-2025 15:10:05] La jugadora elige al Ninja
+[25-04-2025 15:10:09] La jugadora elige al Guerrero
+[25-04-2025 15:10:15] La jugadora nombra a su personaje como: jjghj.
+[25-04-2025 15:10:18] ERROR --> Intento de entrar en el Castillo Oscuro sin la llave.
+[25-04-2025 15:10:18] Combate iniciado: jjghj vs No-Muerto.
+[25-04-2025 15:10:18] Turno de--> jjghj.
+[25-04-2025 15:10:21] jjghj ataca a No-Muerto
+[25-04-2025 15:10:21] Turno de--> No-Muerto.
+[25-04-2025 15:10:21] No-Muerto activa defensa.
+[25-04-2025 15:10:21] Turno de--> jjghj.
+[25-04-2025 15:10:24] jjghj usa Habilidad Especial.
+[25-04-2025 15:10:24] Turno de--> No-Muerto.
+[25-04-2025 15:10:24] No-Muerto usa Habilidad Especial.
+[25-04-2025 15:10:24] Turno de--> jjghj.
+[25-04-2025 15:10:25] Turno de--> No-Muerto.
+[25-04-2025 15:10:25] No-Muerto usa Habilidad Especial.
+[25-04-2025 15:10:25] Turno de--> jjghj.
+[25-04-2025 15:10:27] jjghj usa Habilidad Especial.
+[25-04-2025 15:10:27] Turno de--> No-Muerto.
+[25-04-2025 15:10:27] No-Muerto usa Habilidad Especial.
+[25-04-2025 15:10:27] Turno de--> jjghj.
+[25-04-2025 15:10:28] jjghj usa Habilidad Especial.
+[25-04-2025 15:10:28] Turno de--> No-Muerto.
+[25-04-2025 15:10:28] No-Muerto activa defensa.
+[25-04-2025 15:10:28] Turno de--> jjghj.
+[25-04-2025 15:10:29] jjghj usa Habilidad Especial.
+[25-04-2025 15:10:29] jjghj VENCIÓ a No-Muerto.
+[25-04-2025 15:10:29] jjghj ha adquirido 40 exp. tiene 40 exp.
+[25-04-2025 15:10:30] Combate iniciado: jjghj vs Guerrero Oscuro.
+[25-04-2025 15:10:30] Turno de--> jjghj.
+[25-04-2025 15:10:33] jjghj usa Habilidad Especial.
+[25-04-2025 15:10:33] Turno de--> Guerrero Oscuro.
+[25-04-2025 15:10:33] Guerrero Oscuro usa Habilidad Especial.
+[25-04-2025 15:10:33] Turno de--> jjghj.
+[25-04-2025 15:10:34] jjghj usa Habilidad Especial.
+[25-04-2025 15:10:34] Turno de--> Guerrero Oscuro.
+[25-04-2025 15:10:34] Guerrero Oscuro activa defensa.
+[25-04-2025 15:10:34] Turno de--> jjghj.
+[25-04-2025 15:10:34] jjghj usa Habilidad Especial.
+[25-04-2025 15:10:34] Turno de--> Guerrero Oscuro.
+[25-04-2025 15:10:34] Guerrero Oscuro ataca a jjghj.
+[25-04-2025 15:10:34] Turno de--> jjghj.
+[25-04-2025 15:10:35] jjghj usa Habilidad Especial.
+[25-04-2025 15:10:35] jjghj VENCIÓ a Guerrero Oscuro.
+[25-04-2025 15:10:35] jjghj ha adquirido 50 exp. tiene 90 exp.
+[25-04-2025 15:10:35] Combate iniciado: jjghj vs Lobo Salvaje.
+[25-04-2025 15:10:35] Turno de--> jjghj.
+[25-04-2025 15:10:36] jjghj usa Habilidad Especial.
+[25-04-2025 15:10:36] Turno de--> Lobo Salvaje.
+[25-04-2025 15:10:36] Lobo Salvaje activa defensa.
+[25-04-2025 15:10:36] Turno de--> jjghj.
+[25-04-2025 15:10:37] jjghj usa Habilidad Especial.
+[25-04-2025 15:10:37] Turno de--> Lobo Salvaje.
+[25-04-2025 15:10:37] Lobo Salvaje ataca a jjghj.
+[25-04-2025 15:10:37] Turno de--> jjghj.
+[25-04-2025 15:10:37] ERROR -->  no tiene suficiente energía para usar su habilidad especial, pierde el turno.
+[25-04-2025 15:10:37] Turno de--> Lobo Salvaje.
+[25-04-2025 15:10:37] Lobo Salvaje usa Habilidad Especial.
+[25-04-2025 15:10:37] Turno de--> jjghj.
+[25-04-2025 15:10:38] ERROR -->  no tiene suficiente energía para usar su habilidad especial, pierde el turno.
+[25-04-2025 15:10:38] Turno de--> Lobo Salvaje.
+[25-04-2025 15:10:38] Lobo Salvaje ataca a jjghj.
+[25-04-2025 15:10:38] Turno de--> jjghj.
+[25-04-2025 15:10:39] ERROR -->  no tiene suficiente energía para usar su habilidad especial, pierde el turno.
+[25-04-2025 15:10:39] Turno de--> Lobo Salvaje.
+[25-04-2025 15:10:39] Lobo Salvaje usa Habilidad Especial.
+[25-04-2025 15:10:39] Turno de--> jjghj.
+[25-04-2025 15:10:40] ERROR -->  no tiene suficiente energía para usar su habilidad especial, pierde el turno.
+[25-04-2025 15:10:40] Turno de--> Lobo Salvaje.
+[25-04-2025 15:10:40] Lobo Salvaje ataca a jjghj.
+[25-04-2025 15:10:40] Turno de--> jjghj.
+[25-04-2025 15:10:40] ERROR -->  no tiene suficiente energía para usar su habilidad especial, pierde el turno.
+[25-04-2025 15:10:40] Turno de--> Lobo Salvaje.
+[25-04-2025 15:10:40] Lobo Salvaje activa defensa.
+[25-04-2025 15:10:40] Turno de--> jjghj.
+[25-04-2025 15:10:41] ERROR -->  no tiene suficiente energía para usar su habilidad especial, pierde el turno.
+[25-04-2025 15:10:41] Turno de--> Lobo Salvaje.
+[25-04-2025 15:10:41] Lobo Salvaje ataca a jjghj.
+[25-04-2025 15:10:41] Turno de--> jjghj.
+[25-04-2025 15:10:41] ERROR -->  no tiene suficiente energía para usar su habilidad especial, pierde el turno.
+[25-04-2025 15:10:41] Turno de--> Lobo Salvaje.
+[25-04-2025 15:10:41] Lobo Salvaje ataca a jjghj.
+[25-04-2025 15:10:41] Turno de--> jjghj.
+[25-04-2025 15:10:42] ERROR -->  no tiene suficiente energía para usar su habilidad especial, pierde el turno.
+[25-04-2025 15:10:42] Turno de--> Lobo Salvaje.
+[25-04-2025 15:10:42] Lobo Salvaje ataca a jjghj.
+[25-04-2025 15:10:42] Turno de--> jjghj.
+[25-04-2025 15:10:42] ERROR -->  no tiene suficiente energía para usar su habilidad especial, pierde el turno.
+[25-04-2025 15:10:42] Turno de--> Lobo Salvaje.
+[25-04-2025 15:10:42] Lobo Salvaje ataca a jjghj.
+[25-04-2025 15:10:42] jjghj Ha muerto.
