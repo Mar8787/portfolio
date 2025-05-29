@@ -1,0 +1,439 @@
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    color: #3C1F12;
+}
+
+/* Títulos */
+h1,
+h2,
+.titulo {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* Migas de pan */
+.breadcrumb {
+    margin-bottom: 0;
+}
+
+.breadcrumb a {
+    color: #1b1b1b;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-personalizado {
+    background-color: #FFF3C4;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "›";
+    color: #6c757d;
+}
+
+/* Menú */
+.menu-lateral {
+    position: sticky;
+    top: 0;
+}
+
+.menu-lateral .nav-link {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3C1F12;
+    padding: 10px;
+    border-bottom: 1px solid #e6c1d4;
+}
+
+.nav-link:hover {
+    background-color: #FDC6B5;
+    border-radius: 8px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link.active {
+    background-color: #F77A64;
+    border-radius: 8px;
+    padding: 10px;
+    color: #000000;
+}
+
+.sidebar {
+    background-color: #ffe4f2;
+    min-height: 100vh;
+}
+
+/* Menú pequeño */
+#offcanvasSidebar {
+    background-color: #ffe4f2;
+}
+
+.offcanvas-start {
+    width: 80%;
+    max-width: 150px;
+}
+
+/* Botón mel menú pequeño */
+.btn-outline-secondary.d-md-none.mb-3 {
+    background-color: #E0A841;
+    color: #000000;
+    position: sticky;
+    top: 15px;
+    z-index: 1040;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Botón de carrito flotante */
+.btn-carrito-flotante {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    background-color: #E0A841;
+    color: #1b1b1b;
+    font-size: 22px;
+    padding: 12px 16px;
+    border-radius: 50px;
+    border: none;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-carrito-flotante:hover {
+    background-color: #C9972D;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Botón de subir */
+.btn-scroll-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #F77A64;
+    color: white;
+    font-size: 24px;
+    padding: 12px 16px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+.btn-scroll-top:hover {
+    background-color: #E05245;
+}
+
+/* Pie de página */
+.footer {
+    width: 100%;
+    color: #3C1F12;
+    margin-top: 200px;
+
+}
+
+/* Botón dorado */
+.btn-dorado {
+    background-color: #e5b761;
+    color: #1b1b1b;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.btn-dorado:hover {
+    background-color: #AF7C1D;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-dorado:active {
+    background-color: #9E6B1A;
+    color: white;
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
+    transform: scale(0.98);
+}
+
+/* Botón rojo */
+.btn-rojo {
+    background-color: #F99B8B;
+    color: #1b1b1b;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-rojo:hover {
+    background-color: #DC3C2E;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-rojo:active {
+    background-color: #C52D1F;
+    color: white;
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
+    transform: scale(0.98);
+}
+
+/* Home */
+.contenido-home {
+    background-image: url('../assets/pokemon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px;
+    padding: 0;
+    min-height: 60vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.bienvenida {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+/* Productos */
+h2.titulo {
+    font-size: 2.2rem;
+    color: #F77A64;
+    border-bottom: 3px solid #FDC6B5;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.imagenesCompra {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.contenedorImagen {
+    position: relative;
+    display: flex;
+}
+
+.imagenCategoria {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.imagenC {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.textoImagen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.seccion-producto {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.product-card {
+  background-color: #f2f2f2;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: none;
+  border-radius: 0;
+}
+
+.product-card .imagenC {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border: 3px solid #dee2e6;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+.product-card .imagenC:hover {
+  transform: scale(1.05);
+}
+
+.product-card .nombreProducto {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+  color: #3C1F12;
+  font-weight: 600;
+  min-height: 3rem;
+  margin: 0;
+}
+
+.product-card .precioProducto {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  color: #F77A64;
+  font-weight: bold;
+  margin: 0.5rem 0 0 0;
+}
+
+.hover-zoom {
+    transition: transform .3s ease;
+}
+
+.hover-zoom:hover {
+    transform: scale(1.05);
+}
+
+.product-card .nombreProducto {
+  font-size: clamp(0.8rem, 2vw, 1.1rem);
+}
+
+.product-card .precioProducto {
+  font-size: clamp(0.9rem, 2vw, 1.2rem);
+}
+
+/* Galería */
+.carousel-inner {
+    margin-top: 100px;
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 90%;
+    margin: auto;
+
+}
+
+/* Carrito de compra */
+.card {
+    border: none;
+    border-radius: 0 !important;
+    background-color: #f2f2f2;
+}
+
+.card img {
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #dee2e6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-nombre-producto {
+  color: #F77A64;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Formulario */
+.formulario-contacto input,
+.formulario-contacto textarea {
+    border-radius: 8px;
+    border: 2px solid #FDC6B5;
+    background-color: #fff8f8;
+    color: #1b1b1b;
+}
+
+.formulario-contacto input:focus,
+.formulario-contacto textarea:focus {
+    border-color: #F77A64;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(247, 122, 100, 0.25);
+}
+
+#obligatorio {
+    text-align: right;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 886px) {
+    .menu-lateral .nav-link {
+        font-size: 12px;
+        padding: 8px;
+
+    }
+
+    .nav-link:hover {
+        padding: 8px;
+
+    }
+
+    .nav-link.active {
+        padding: 8px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .btn-menu-movil {
+        width: 70px;
+        height: 70px;
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn-menu-movil {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+}

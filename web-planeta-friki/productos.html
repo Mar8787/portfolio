@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="icon" href="assets/logo/favicon.png" type="image/png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--El CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Fuente Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Menú reducido -->
+    <div class="offcanvas offcanvas-start d-md-none" tabindex="-1" id="offcanvasSidebar"
+      aria-labelledby="offcanvasSidebarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasSidebarLabel">Menú</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+      </div>
+      <div class="offcanvas-body p-0">
+        <nav class="menu-lateral p-3">
+          <!-- Logo -->
+          <a href="home.html">
+            <img src="assets/logo/logo-sin-fondo.png" alt="Logo de Planeta Friki" class="img-fluid mb-4">
+          </a>
+          <a class="nav-link mb-2" href="home.html">Home</a>
+          <a class="nav-link active mb-2" href="productos.html">Productos</a>
+          <a class="nav-link mb-2" href="galeria.html">Galería</a>
+          <a class="nav-link mb-2" href="carrito.html">Carrito</a>
+          <a class="nav-link mb-2" href="contacto.html">Contacto</a>
+        </nav>
+      </div>
+    </div>
+    <!-- Contenedor ancho total-->
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Menú lateral -->
+        <nav class="col-md-2 d-none d-md-block sidebar">
+          <div class="menu-lateral p-3">
+            <!-- Logo -->
+            <a href="home.html">
+              <img src="assets/logo/logo-sin-fondo.png" alt="Logo de Planeta Friki" class="img-fluid mb-4">
+            </a>
+            <a class="nav-link mb-4" href="home.html">Home</a>
+            <a class="nav-link active mb-4" href="productos.html">Productos</a>
+            <a class="nav-link mb-4" href="galeria.html">Galería</a>
+            <a class="nav-link mb-4" href="carrito.html">Carrito</a>
+            <a class="nav-link mb-4" href="contacto.html">Contacto</a>
+          </div>
+        </nav>
+        <!-- Contenido principal -->
+        <main class="col-md-10 ms-sm-auto px-4">
+          <!-- Botón del menú pequeño-->
+          <button class="btn btn-outline-secondary d-md-none mb-3 btn-menu-movil" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar">
+            ☰
+          </button>
+          <!-- Encabezado -->
+          <header class="encabezado py-3">
+            <!-- Migas de pan -->
+            <nav aria-label="breadcrumb" class="breadcrumb-personalizado d-none d-md-block">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Productos</li>
+              </ol>
+            </nav>
+            <!-- Título y descripción -->
+            <h1 class="titulo">Productos</h1>
+            <p class="descripcion">Encuentra lo que buscas en cada categoría</p>
+          </header>
+          <!-- Contenido de la página, secciones -->
+          <section class="contenido py-3">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <!-- Nombres secciones -->
+                  <div class="contenedorImagen text-center">
+                    <a href="#seccion-joyas" class="textoImagen">Joyería</a>
+                    <img src="assets/categorias/joyeria.jpg" alt="Pulsera" class="imagenCategoria img-fluid">
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <div class="contenedorImagen text-center">
+                    <a href="#seccion-tazas" class="textoImagen">Tazas</a>
+                    <img src="assets/categorias/taza.webp" alt="Taza" class="imagenCategoria img-fluid">
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <div class="contenedorImagen text-center">
+                    <a href="#seccion-peluches" class="textoImagen">Peluches</a>
+                    <img src="assets/categorias/peluche.jpg" alt="Peluche Koro" class="imagenCategoria img-fluid">
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <div class="contenedorImagen text-center">
+                    <a href="#seccion-merchan" class="textoImagen">Merchan</a>
+                    <img src="assets/categorias/merchan.jpg" alt="Bolas de Dragon" class="imagenCategoria img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Sección de joyas -->
+            <div class="container seccion-producto" id="seccion-joyas">
+              <h2 class="titulo">Joyería</h2>
+              <div class="row">
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <!-- Producto anillo -->
+                  <div id="anillo-esdla" class="product-card">
+                    <p class="nombreProducto">Anillo ESDLA</p>
+                    <div class="overflow-hidden d-inline-block">
+                      <img src="assets/joyas/anillo-esdla.jpg" alt="Anillo El señor de los anillos"
+                        class="imagenC img-fluid border border-3 rounded shadow-sm hover-zoom producto"
+                        data-id="anillo-esdla" data-nombre="Anillo ESDLA" data-precio="5">
+                    </div>
+                    <p class="precioProducto">5 €</p>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <!-- Producto choker -->
+                  <div id="choker" class="product-card">
+                    <p class="nombreProducto">Choker Corazón</p>
+                    <div class="overflow-hidden d-inline-block">
+                      <img src="assets/joyas/choker.jpg" alt="Choker Corazón"
+                        class="imagenC img-fluid border border-3 rounded shadow-sm hover-zoom producto" data-id="choker"
+                        data-nombre="Choker Corazón" data-precio="12">
+                    </div>
+                    <p class="precioProducto">12 €</p>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <!-- Producto colgante -->
+                  <div id="colgante-cloud" class="product-card">
+                    <p class="nombreProducto">Colgante Cloud</p>
+                    <div class="overflow-hidden d-inline-block">
+                      <img src="assets/joyas/colgante-cloud.jpg" alt="Colgante Cloud"
+                        class="imagenC img-fluid border border-3 rounded shadow-sm hover-zoom producto"
+                        data-id="colgante-cloud" data-nombre="Colgante Cloud" data-precio="8.00">
+                    </div>
+                    <p class="precioProducto">8,00 €</p>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <!-- Producto colgante 2-->
+                  <div id="colgante-shingeki" class="product-card">
+                    <p class="nombreProducto">Colgante Shingeki</p>
+                    <div class="overflow-hidden d-inline-block">
+                      <img src="assets/joyas/colgante-shingeki.jpg" alt="Colgante Shingeki"
+                        class="imagenC img-fluid border border-3 rounded shadow-sm hover-zoom producto"
+                        data-id="colgante-shingeki" data-nombre="Colgante Shingeki" data-precio="8.00">
+                    </div>
+                    <p class="precioProducto">8,00 €</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Sección de tazas -->
+            <div class="container seccion-producto" id="seccion-tazas">
+              <h2 class="titulo">Tazas</h2>
+              <div class="row">
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <!-- Producto taza -->
+                  <div id="taza-arcane" class="product-card">
+                    <p  class="nombreProducto">Taza Arcane</p>
+                    <div class="overflow-hidden d-inline-block">
+                      <img src="assets/tazas/taza-arcane.webp" alt="Taza de Arcane"
+                        class="imagenC img-fluid border border-3 rounded shadow-sm hover-zoom producto"
+                        data-id="taza-arcane" data-nombre="Taza Arcane" data-precio="8.00">
+                    </div>
+                    <p class="precioProducto">8,00 €</p>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <!-- Producto taza -->
+                  <div id="taza-pikachu" class="product-card">
+                    <p class="nombreProducto">Taza Pikachu</p>
+                    <div class="overflow-hidden d-inline-block">
+                      <img src="assets/tazas/taza-pikachu.jpg" alt="Taza de Pikachu"
+                        class="imagenC img-fluid border border-3 rounded shadow-sm hover-zoom producto"
+                        data-id="taza-pikachu" data-nombre="Taza Pikachu" data-precio="8.00">
+                    </div>
+                    <p class="precioProducto">8,00 €</p>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <!-- Producto taza -->
+                  <div id="taza-sailor" class="product-card">
+                    <p class="nombreProducto">Taza Sailor Moon</p>
+                    <div class="overflow-hidden d-inline-block">
+                      <img src="assets/tazas/taza-sailor.jpg" alt="Taza de Sailor Moon"
+                        class="imagenC img-fluid border border-3 rounded shadow-sm hover-zoom producto"
+                        data-id="taza-sailor" data-nombre="Taza Sailor Moon" data-precio="8.00">
+                    </div>
+                    <p class="precioProducto">8,00 €</p>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <!-- Producto taza -->
+                  <div id="taza-shingeki" class="product-card">
+                    <p class="nombreProducto">Taza Shingeki</p>
+                    <div class="overflow-hidden d-inline-block">
+                      <img src="assets/tazas/taza-shingeki.jpg" alt="Taza de Shingeki"
+                        class="imagenC img-fluid border border-3 rounded shadow-sm hover-zoom producto"
+                        data-id="taza-shingeki" data-nombre="Taza Shingeki" data-precio="8.00">
+                    </div>
+                    <p class="precioProducto">8,00 €</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Sección de peluches -->
+            <div class="container seccion-producto" id="seccion-peluches">
+              <h2 class="titulo">Peluches</h2>
+              <div class="row">
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <!-- Producto peluche -->
+                  <div id="peluche-cubone" class="product-card">
+                    <p class="nombreProducto">Peluche Cubone</p>
+                    <div class="overflow-hidden d-inline-block">
+                      <img src="assets/peluches/cubone.jpg" alt="Peluche de Cubone"
+                        class="imagenC img-fluid border border-3 rounded shadow-sm hover-zoom producto"
+                        data-id="peluche-cubone" data-nombre="Peluche Cubone" data-precio="20.00">
+                    </div>
+                    <p class="precioProducto">20,00 €</p>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <!-- Producto peluche -->
+                  <div id="peluche-mimikyu" class="product-card">
+                    <p class="nombreProducto">Peluche Mimikyu</p>
+                    <div class="overflow-hidden d-inline-block">
+                      <img src="assets/peluches/mimikyu.jpg" alt="Peluche de Mimikyu"
+                        class="imagenC img-fluid border border-3 rounded shadow-sm hover-zoom producto"
+                        data-id="peluche-mimikyu" data-nombre="Peluche Mimikyu" data-precio="20.00">
+                    </div>
+                    <p class="precioProducto">20,00 €</p>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <!-- Producto peluche -->
+                  <div id="peluche-monokuma" class="product-card">
+                    <p class="nombreProducto">Peluche Monokuma</p>
+                    <div class="overflow-hidden d-inline-block">
+                      <img src="assets/peluches/oso.jpg" alt="Peluche de Monokuma"
+                        class="imagenC img-fluid border border-3 rounded shadow-sm hover-zoom producto"
+                        data-id="peluche-monokuma" data-nombre="Peluche Monokuma" data-precio="20.00">
+                    </div>
+                    <p class="precioProducto">20,00 €</p>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <!-- Producto peluche -->
+                  <div id="peluche-rickmorty" class="product-card">
+                    <p class="nombreProducto">Peluche Rick</p>
+                    <div class="overflow-hidden d-inline-block">
+                      <img src="assets/peluches/ric.jpg" alt="Peluche de Rick & Morty"
+                        class="imagenC img-fluid border border-3 rounded shadow-sm hover-zoom producto"
+                        data-id="peluche-rickmorty" data-nombre="Peluche Rick & Morty" data-precio="20.00">
+                    </div>
+                    <p class="precioProducto">20,00 €</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Sección de merchan -->
+            <div class="container seccion-producto" id="seccion-merchan">
+              <h2 class="titulo">Merchan</h2>
+              <div class="row">
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <!-- Producto merchan -->
+                  <div id="merchan-bolas" class="product-card">
+                    <p class="nombreProducto">Bolas de Dragón</p>
+                    <div class="overflow-hidden d-inline-block">
+                      <img src="assets/merchan/bolas.jpg" alt="Bolas de Dragón"
+                        class="imagenC img-fluid border border-3 rounded shadow-sm hover-zoom producto"
+                        data-id="merchan-bolas" data-nombre="Bolas de Dragón" data-precio="30.00">
+                    </div>
+                    <p class="precioProducto">30,00 €</p>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <!-- Producto merchan -->
+                  <div id="merchan-sakura" class="product-card">
+                    <p class="nombreProducto">Cartas de Sakura</p>
+                    <div class="overflow-hidden d-inline-block">
+                      <img src="assets/merchan/card-sakura.jpg" alt="Cartas Clear de Sakura"
+                        class="imagenC img-fluid border border-3 rounded shadow-sm hover-zoom producto"
+                        data-id="merchan-sakura" data-nombre="Cartas de Sakura" data-precio="15.00">
+                    </div>
+                    <p class="precioProducto">15,00 €</p>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <!-- Producto merchan -->
+                  <div id="merchan-mapa" class="product-card">
+                    <p class="nombreProducto">Mapa del Merodeador</p>
+                    <div class="overflow-hidden d-inline-block">
+                      <img src="assets/merchan/mapa-merodeador.jpg" alt="Mapa del merodeador de Harry Potter"
+                        class="imagenC img-fluid border border-3 rounded shadow-sm hover-zoom producto"
+                        data-id="merchan-mapa" data-nombre="Mapa del Merodeador" data-precio="7.00">
+                    </div>
+                    <p class="precioProducto">7,00 €</p>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 mb-4">
+                  <!-- Producto merchan -->
+                  <div id="merchan-ocarina" class="product-card">
+                    <p class="nombreProducto">Ocarina</p>
+                    <div class="overflow-hidden d-inline-block">
+                      <img src="assets/merchan/ocarina.jpg" alt="Ocarina"
+                        class="imagenC img-fluid border border-3 rounded shadow-sm hover-zoom producto"
+                        data-id="merchan-ocarina" data-nombre="Ocarina" data-precio="30.00">
+                    </div>
+                    <p class="precioProducto">30,00 €</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Pie de página -->
+          <footer class="footer py-5 text-center">
+            &copy; Mar Sánchez | 1º DAW 2025
+          </footer>
+        </main>
+      </div>
+    </div>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Script -->
+    <script src="js/productos.js"></script>
+    <!-- Botón de volver arriba -->
+    <a href="#" class="btn-scroll-top" title="Volver arriba">⬆</a>
+    <!-- Botón flotante al carrito -->
+    <a href="carrito.html" class="btn-carrito-flotante" title="Ir al carrito" aria-label="Carrito">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+          class="bi bi-cart" viewBox="0 0 16 16">
+        <path d="M0 1.5A.5.5 0 0 1 .5 1h1a.5.5 0 0 1 .485.379L2.89 5H14.5a.5.5 0 0 1 
+                .49.598l-1.5 7A.5.5 0 0 1 13 13H4a.5.5 0 0 1-.49-.402L1.01 
+                2H.5a.5.5 0 0 1-.5-.5zM3.102 6l1.313 6h8.17l1.2-5.6H3.102zM5 
+                12a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm6 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+      </svg>
+    </a>
+
+  </body>
+
+</html>

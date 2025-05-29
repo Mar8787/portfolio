@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <link rel="icon" href="assets/logo/favicon.png" type="image/png">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!--El CSS-->
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Fuente Inter -->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Menú pequeño -->
+        <div class="offcanvas offcanvas-start d-md-none" tabindex="-1" id="offcanvasSidebar"
+            aria-labelledby="offcanvasSidebarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasSidebarLabel">Menú</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body p-0">
+                <nav class="menu-lateral p-3">
+                    <!-- Logo -->
+                    <a href="home.html">
+                        <img src="assets/logo/logo-sin-fondo.png" alt="Logo de Planeta Friki" class="img-fluid mb-4">
+                    </a>
+                    <a class="nav-link mb-2" href="home.html">Home</a>
+                    <a class="nav-link mb-2" href="productos.html">Productos</a>
+                    <a class="nav-link mb-2" href="galeria.html">Galería</a>
+                    <a class="nav-link mb-2" href="carrito.html">Carrito</a>
+                    <a class="nav-link active mb-2" href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </div>
+        <!-- Contenedor que coge el ancho total-->
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Menú lateral -->
+                <nav class="col-md-2 d-none d-md-block sidebar">
+                    <div class="menu-lateral p-3">
+                        <!-- Logo -->
+                        <a href="home.html">
+                            <img src="assets/logo/logo-sin-fondo.png" alt="Logo de Planeta Friki" class="img-fluid mb-4">
+                        </a>
+                        <a class="nav-link mb-4" href="home.html">Home</a>
+                        <a class="nav-link mb-4" href="productos.html">Productos</a>
+                        <a class="nav-link mb-4" href="galeria.html">Galería</a>
+                        <a class="nav-link mb-4" href="carrito.html">Carrito</a>
+                        <a class="nav-link active mb-4" href="contacto.html">Contacto</a>
+                    </div>
+                </nav>
+                <!-- Contenido principal -->
+                <main class="col-md-10 ms-sm-auto px-4">
+                    <!-- Botón del menú pequeño-->
+                    <button class="btn btn-outline-secondary d-md-none mb-3 btn-menu-movil" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar">
+                        ☰
+                    </button>
+                    <!-- Encabezado -->
+                    <header class="encabezado py-3">
+                        <!-- Migas de pan -->
+                        <nav aria-label="breadcrumb" class="breadcrumb-personalizado d-none d-md-block">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+                            </ol>
+                        </nav>
+                        <!-- Título y descripción -->
+                        <h1 class="titulo">Formulario de contacto</h1>
+                        <p class="descripcion">Rellena los datos para enviarnos un mensaje</p>
+                    </header>
+                    <!-- Contenido de la página, formulario -->
+                    <section class="container py-5">
+                        <h2 class="titulo text-center mb-4">Contáctanos</h2>
+                        <form action="php/formulario.php" method="POST" class="formulario-contacto mx-auto"
+                            style="max-width: 600px;">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">* Nombre</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefono" class="form-label">Teléfono</label>
+                                <input type="tel" class="form-control" id="telefono" name="telefono">
+                            </div>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label">* Correo electrónico</label>
+                                <input type="email" class="form-control" id="correo" name="correo" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">* Mensaje</label>
+                                <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+                            </div>
+                            <div id="obligatorio">
+                                <p>* Campos obligatorios</p>
+                            </div>
+                            <div class="text-end">
+                                <button type="reset" class="btn-rojo me-3">Limpiar</button>
+                                <button type="submit" class="btn-dorado">Enviar mensaje</button>
+                            </div>
+                        </form>
+                    </section>
+                    <!-- Copy en el pie de página -->
+                    <footer class="footer py-5 text-center">
+                        &copy; Mar Sánchez | 1º DAW 2025
+                    </footer>
+                </main>
+            </div>
+        </div>
+        <!-- Bootstrap y script -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Botón de volver arriba -->
+        <a href="#" class="btn-scroll-top" title="Volver arriba">⬆</a>
+        <!-- Botón flotante al carrito -->
+        <a href="carrito.html" class="btn-carrito-flotante" title="Ir al carrito" aria-label="Carrito">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart"
+                viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1h1a.5.5 0 0 1 .485.379L2.89 5H14.5a.5.5 0 0 1 
+                        .49.598l-1.5 7A.5.5 0 0 1 13 13H4a.5.5 0 0 1-.49-.402L1.01 
+                        2H.5a.5.5 0 0 1-.5-.5zM3.102 6l1.313 6h8.17l1.2-5.6H3.102zM5 
+                        12a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm6 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+            </svg>
+        </a>
+    </body>
+
+</html>

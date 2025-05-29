@@ -1,0 +1,122 @@
+----------------------------------
+Fecha: 2025-05-06 10:19:11
+Nombre: Mar
+Teléfono: 628985325
+Correo: mar@hotmail.com
+Mensaje:
+Esto es una prueba
+
+----------------------------------
+Fecha: 2025-05-06 10:29:41
+Nombre: Pepe
+Teléfono: 258326598
+Correo: pepe@hotmail.com
+Mensaje:
+Prueba número 2
+
+----------------------------------
+Fecha: 2025-05-06 10:30:33
+Nombre: Juana
+Teléfono: 789653221
+Correo: juana@hotmail.com
+Mensaje:
+prueba 3
+
+----------------------------------
+Fecha: 2025-05-06 10:34:51
+Nombre: Rosario
+Teléfono: 653781298
+Correo: rosario@hotmail.com
+Mensaje:
+Prueba no sé cual va ya
+
+----------------------------------
+Fecha: 2025-05-06 10:39:42
+Nombre: Criss
+Teléfono: 628451232
+Correo: criss@hotmail.com
+Mensaje:
+Para ver el botón
+
+----------------------------------
+Fecha: 2025-05-06 10:44:34
+Nombre: Nerea
+Teléfono: 325784512
+Correo: nerea@hotmail.com
+Mensaje:
+Qué bonita web
+
+----------------------------------
+Fecha: 2025-05-06 10:47:06
+Nombre: Manme
+Teléfono: 658215487
+Correo: manme@hotmail.com
+Mensaje:
+La mejor Web!
+
+----------------------------------
+Fecha: 2025-05-06 10:52:03
+Nombre: Inma
+Teléfono: 798213254
+Correo: inma@hotmail.com
+Mensaje:
+Seguimos viendo que pasa con los envios
+
+----------------------------------
+Fecha: 2025-05-06 10:55:11
+Nombre: Meli
+Teléfono: 658322154
+Correo: meli@hotmail.com
+Mensaje:
+Mar es la mejor empleada, hay que subirle el sueldo
+
+----------------------------------
+Fecha: 2025-05-07 15:05:23
+Nombre: Micaela
+Teléfono: 789451232
+Correo: mica@hotmail.com
+Mensaje:
+Hay que abrir la página con localhost
+
+----------------------------------
+Fecha: 2025-05-07 15:07:13
+Nombre: Noa
+Teléfono: 
+Correo: noa@hotmail.com
+Mensaje:
+El teléfono no es necesario
+
+----------------------------------
+Fecha: 2025-05-07 17:09:27
+Nombre: santicago
+Teléfono: 
+Correo: crissssssssss@hotmail.com
+Mensaje:
+hola k ase
+
+me gustaria saber cuando van a sacar un peluche de pedro pascal del ultimo sofa grax
+
+----------------------------------
+Fecha: 2025-05-08 18:35:44
+Nombre: Nerea
+Teléfono: 
+Correo: nereamorsan8@gmail.com
+Mensaje:
+hola quiero saber cuanto cuesta una ocarina?????????? GRACIAS
+
+----------------------------------
+Fecha: 2025-05-12 10:06:14
+Nombre: Salva
+Teléfono: 987653254
+Correo: salva@hotmail
+Mensaje:
+asgdahwdftghad
+
+----------------------------------
+Fecha: 2025-05-12 10:48:20
+Nombre: Alonso
+Teléfono: 
+Correo: alonso@hotmail.com
+Mensaje:
+Eres la mejor alumna
+
