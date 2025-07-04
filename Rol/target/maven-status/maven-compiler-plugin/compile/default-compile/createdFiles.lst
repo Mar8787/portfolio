@@ -1,0 +1,8 @@
+com\zaltor\dao\CombateDAO.class
+com\zaltor\juegoRol\TipoPersonaje.class
+com\zaltor\dao\EnemigoDAO.class
+com\zaltor\dao\PersonajeDAO.class
+com\zaltor\dataBase\ConexionDB.class
+com\zaltor\iniciarJuego\Rol.class
+com\zaltor\juegoRol\Accion.class
+com\zaltor\juegoRol\Juego$1.class
